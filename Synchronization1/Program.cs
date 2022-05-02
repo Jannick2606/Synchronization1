@@ -11,7 +11,6 @@ namespace Synchronization1
         {
             Thread t1 = new Thread(Add);
             Thread t2 = new Thread(Subtract);
-            Thread.Sleep(1000);
             t1.Start();
             t2.Start();
         }
